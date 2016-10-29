@@ -1,0 +1,70 @@
+#first sample program
+#print "hello world"
+#print 'single quotes'
+#print  "My governor's name is Martin O'Malley"
+# print """Lesson\t Topic
+# 1		 Strings and Conditionals
+# 2 \t \t Lists and Loops 
+# 3 \t  \t Dictionaries & Files"""
+
+# phone = "(607) 844-9730"
+# # area = phone[1:4]
+# number = phone[6:]
+# #print "area code =",area
+# #print "number =",number
+
+# name = "Laurie"
+# age = 103 - len(name)
+# print" My name is {0} and my age is {1}".format (name, age)
+# print "Call for a great pizza: {0}".format (number)
+# print "Call", name, "for a great pizza at", \
+# number,"limit {0} at a time.".format(age-len(number))
+
+# 
+# email = "treefrog@collinsworth.info"
+# n = email.find("@")
+# name = email[:n]
+# print name
+
+# print "The name is", email[:email.find("@")]
+# students = 55
+# tas = 5
+# capacity = 50
+# if (students < capacity):
+# 	print "Keep recruiting"
+# else:
+# 	print "End ticket signups"
+# if (students <10):
+# 	print" Too few students"
+# if tas == 0:
+# 	print "None? Uh oh!"
+# elif tas < students/5:
+# 	print "keep recruiting TA's"  
+# else:  # tas > students/5
+# 	print "have plenty of TA's"
+
+# vol = 15
+# goal = 10
+
+# if vol < goal:
+# 	print "You have {0} volunteers out of your goal of {1}.".format(vol,goal)
+# elif vol == goal:
+# 	print "Yea!, you have met your goal of {0} volunteers.".format(goal)
+# else:  # vol > goal
+# 	print "Stellar, you are a superstar and excceded your goal of {0} by {1}."\
+# 	.format(goal,vol-goal)
+
+
+if mq == 0 and wq == 0:
+	print "neither mq or wq are active";
+else:
+	if mq > wq:
+		print "mq on top"
+	elif wq > mq:
+		print "wq on top"
+	else:
+		print "mq is equial to wq"
+
+
+if wq == 0 or mq > wq * 2:
+	print "mq is on top"
