@@ -28,7 +28,6 @@ print '</select>'
 with open ("states.html", "w") as new_file:
 	new_file.write("<select name='state'>\n")
 	for index, state in enumerate(states):
- 	#print "index {0}, state {1}".format(index,state)
 		new_file.write ('<option value ="{0}"">{1}</option>\n'.format(state[0],state[1]))
 	new_file.write('</select>')
 
