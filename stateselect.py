@@ -1,4 +1,4 @@
-#read in CVC file,  print out HTML file
+#read in CVS file,  print out HTML file
 
 with open("states.csv","r") as inputfile:
 	states= inputfile.read().split("\n")
